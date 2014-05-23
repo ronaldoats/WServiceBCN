@@ -21,7 +21,7 @@ public class Example {
 			
 			Calendar calendario = new GregorianCalendar();
 			int dia=calendario.get(Calendar.DAY_OF_MONTH);
-			int mes=calendario.get(Calendar.MONTH);
+			int mes=calendario.get(Calendar.MONTH)+1;
 			int ano=calendario.get(Calendar.YEAR);
 			
 			System.out.println(dia+"/"+mes+"/"+ano+"="+port.recuperaTC_Dia(ano, mes, dia)+"\n");
